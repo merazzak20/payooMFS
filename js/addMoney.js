@@ -1,4 +1,10 @@
 
+document.getElementById('addMoneyButton').addEventListener('click',function(){
+    document.getElementById('addMoneyForm').classList.remove('hidden');
+    document.getElementById('cashOutForm').classList.add('hidden');
+
+})
+
 
 document.getElementById('btnAddMoney').addEventListener('click',function(event){
     event.preventDefault();
